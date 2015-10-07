@@ -1,12 +1,25 @@
-$body-bg:			#DBD7CE;
-$navbar-default-bg: #56564D;
-$navbar-default-link-color: #fff;
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+
+$body-bg:			#dbd7ce;
+$font-family-sans-serif: "Lato" "Helvetica Neue", Helvetica, Arial, sans-serif;
+$navbar-default-bg: #56564d;
+
+$navbar-default-link-color: #ffffff;
 $navbar-default-link-hover-color: #F0790A;
 $navbar-default-link-active-color: #a5530b;
-$navbar-default-brand-color: #fff;
+$navbar-default-brand-color: #ffffff;
 $navbar-default-brand-hover-color: #f0790a;
 $brand-primary: #f0790a;
 $font-size-h1: 24px;
 
-@import "bootstrap-sprockets";
+@import 'bootstrap-sprockets';
 @import 'bootstrap';
+
+.center {
+	text-align: center;
+}
+
+.navbar-brand {
+font-weight: bold;
+
+}
